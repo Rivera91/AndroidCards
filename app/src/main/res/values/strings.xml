@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Cards</string>
+    <string name="how_many_cards_remaining">How many cards remaining?</string>
+    <string name="shuffle_new_deck">SHUFFLE NEW DECK</string>
+    <string name="cards_remaining_">Cards remaining: %s</string>
+</resources>
