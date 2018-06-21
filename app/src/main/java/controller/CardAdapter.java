@@ -44,10 +44,19 @@ public class CardAdapter extends RecyclerView.Adapter<CardAdapter.CardViewHolder
     }
 
 
-    public void addAll(List<CardDraw> newCard) {
-        this.newCard = newCard;
-//        notifyDataSetChanged();
+//    public void addAll(List<CardDraw> newCard) {
+//        this.newCard = newCard;
+////        notifyDataSetChanged();
+//    }
+
+
+
+    public void addCards(List<CardDraw> cards) {
+        newCard.addAll(cards);
     }
+
+
+
 
     class CardViewHolder extends RecyclerView.ViewHolder {
 

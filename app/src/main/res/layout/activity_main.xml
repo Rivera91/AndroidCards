@@ -36,7 +36,7 @@
         android:layout_height="wrap_content"
         android:layout_alignEnd="@+id/shuffle"
         android:layout_alignTop="@+id/editText"
-        android:text="DRAW CARDs "
+        android:text="@string/draw_cards"
         android:textSize="14sp" />
 
     <EditText
@@ -61,12 +61,12 @@
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/cardImage"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@+id/editText"
+        android:layout_width="376dp"
+        android:layout_height="354dp"
         android:layout_alignParentStart="true"
+        android:layout_below="@+id/editText"
         android:layout_centerVertical="true"
-        android:layout_marginStart="8dp">
+        android:layout_marginStart="0dp">
 
     </android.support.v7.widget.RecyclerView>
 
